@@ -140,7 +140,7 @@
     "control_net_allow_script_control": true,
     "def_batch_dir": "/content/gdrive/MyDrive/SD/ip2p-batch",
     "outdir_ip2p_samples": "/content/gdrive/MyDrive/SD/ip2p-images",
-    "additional_networks_extra_lora_path": "/content/stable-diffusion-webui/models/Lora",
+    "additional_networks_extra_lora_path": "models/Lora",
     "additional_networks_sort_models_by": "name",
     "additional_networks_reverse_sort_order": false,
     "additional_networks_model_name_filter": "",
