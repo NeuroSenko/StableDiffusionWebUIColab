@@ -1,0 +1,47 @@
+body,
+#output-area,
+#output-body,
+.display-data,
+#output-body > div.display_data.output-id-1,
+.textareas {
+	background: #383838 !important;
+}
+.textareas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.widget-textarea {
+	position: relative;
+	padding-top: 40px;
+	margin-right: 20px;
+	width: 370px!important;
+}
+.widget-textarea label {
+	width: fit-content!important;
+	padding: 0px !important;
+	margin: 0px !important;
+	position: absolute;
+	top: 10px;
+	font-size: 1.5em;
+	color: #0be964 !important;
+}
+.widget-textarea textarea {
+	height: 200px;
+	width: 370px!important;
+	background: #1e1e1e !important;
+	border: none !important;
+	resize: none !important;
+}
+.run {
+	width: 100%;
+	background: #12cd40;
+	color: #1c0124;
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 0 !important;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px
+}
