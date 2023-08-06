@@ -148,5 +148,8 @@
     "additional_networks_show_only_safetensors": false,
     "additional_networks_show_only_models_with_metadata": "disabled",
     "additional_networks_max_top_tags": 20.0,
-    "additional_networks_max_dataset_folders": 20.0
+    "additional_networks_max_dataset_folders": 20.0,
+    "ui_tab_order": [
+        "\u043c\u043e\u0434\u0435\u043b\u0438"
+    ]
 }
