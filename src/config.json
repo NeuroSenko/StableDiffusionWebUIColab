@@ -263,6 +263,9 @@
     "lora_add_hashes_to_infotext": true,
     "img2img_editor_height": 720,
     "ui_tab_order": [
+        "txt2img",
+        "img2img",
+        "Extras",
         "\u043c\u043e\u0434\u0435\u043b\u0438"
     ],
     "hires_fix_show_sampler": true,
