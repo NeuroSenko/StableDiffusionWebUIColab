@@ -293,7 +293,7 @@
     "lora_in_memory_limit": 0,
     "show_progress_in_title": true,
     "samplers_in_dropdown": true,
-    "dimensions_and_batch_together": true,
+    "dimensions_and_batch_together": false,
     "keyedit_move": true,
     "ui_tab_order": [],
     "hidden_tabs": [],
