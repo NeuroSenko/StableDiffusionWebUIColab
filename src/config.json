@@ -302,6 +302,7 @@
     "extra_options_accordion": false,
     "disable_weights_auto_swap": true,
     "show_progressbar": true,
+    "live_previews_enable": false,
     "live_previews_image_format": "png",
     "show_progress_grid": true,
     "show_progress_every_n_steps": 10,
