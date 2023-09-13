@@ -5,8 +5,8 @@ import requests
 MESSAGING_API_ENDPOINT = "https://api.gradio.app/gradio-messaging/rus"
 
 en = {
-    "RUNNING_LOCALLY": "Ссылка на градио:",
-    "RUNNING_LOCALLY_SEPARATED": "Ссылка на градио:",
+    "RUNNING_LOCALLY": "сервер поднят",
+    "RUNNING_LOCALLY_SEPARATED": "сервер поднят",
     "SHARE_LINK_DISPLAY": "{}",
     "COULD_NOT_GET_SHARE_LINK": "\nПроблемы с интернетом, ссылку создать не получилось. Используй одну из ссылок выше, например на ngrok\n",
     "COLAB_NO_LOCAL": "Не получилось отобразить локальный интерфейс в колабе, но ссылка создана.",
