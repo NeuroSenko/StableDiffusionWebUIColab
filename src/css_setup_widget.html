@@ -429,13 +429,17 @@
     .booru,
     .no_half_vae,
     .starton,
-    .xformers,
-    .eng {
+    .xformers {
         width: auto;
         padding-left: 0px !important;
         padding-right: 2em !important;
     }
-
+    .eng {
+        display: none !important;
+        width: auto;
+        padding-left: 0px !important;
+        padding-right: 2em !important;
+    }
     .gfolder {
         margin-left: 1.5em;
         position: relative;
@@ -756,7 +760,28 @@
         border: none !important;
         line-height: 1.5;
     }
-
+    .own_extentions_links {
+	width: 600px;
+	height: 120px;
+	padding-top: 58px;
+	position: relative;
+    }
+    .own_extentions_links label {
+        padding: 0 !important;
+        margin: 0 !important;
+        position: absolute;
+        top: 26px;
+        font-size: 1.2em;
+        left: 0px;
+        width: fit-content !important;
+    }
+	.own_extentions_links textarea {
+		background: #1e1e1e;
+		color: #579dd4;
+		font-family: monospace !important;
+		border: none !important;
+		line-height: 1.5;
+	}
     .send_arts {
         margin-left: 20px;
     }
@@ -800,4 +825,23 @@
         margin: 0 !important;
         padding: 0 !important;
     }
+	.lycoris_locon, .lycoris_locon label, .opt label {
+		font-size: 1em !important;
+		width: max-content !important
+	}
+	.lycoris_locon select {
+		font-size: 1em !important;
+	}
+	.lycoris_locon {
+		top: 4px !important;
+		position: relative;
+		margin-right: 20px;
+	}
+	@-moz-document url-prefix() {
+	  .output-id-6 {
+		position: relative !important;
+		top: 5px !important;
+		z-index: 999 !important;
+	  }
+	}
 </style>
